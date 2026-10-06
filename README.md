@@ -1,4 +1,4 @@
-🧱 LEGO Analytics Data Warehouse & SQL Case Study
+## 🧱 LEGO Analytics Data Warehouse & SQL Case Study
 
 A comprehensive end-to-end SQL data analytics project based on the multi-table relational Rebrickable database. The project implements relational database modeling, bulk loading pipelines, data quality sanity checks, denormalized reporting views, and advanced business insights using MySQL 8.0.
 📌 Project Architecture & Workflow
@@ -19,7 +19,7 @@ Raw CSV Data (Rebrickable)
 │
 ▼
 [04_advanced_analytics.sql]--> Window functions, CTEs, YoY growth & market segmentation
-🗄️ Relational Schema Design
+## 🗄️ Relational Schema Design
 
 The schema (lego_analytics) models catalog items, taxonomy, and physical set inventories across 7 core entities:
 
@@ -37,7 +37,7 @@ The schema (lego_analytics) models catalog items, taxonomy, and physical set inv
 
     inventory_parts: High-volume fact table detailing part quantities and spare piece indicators.
 
-🛠️ Tools & Methodology
+## 🛠️ Tools & Methodology
 
     Database & Client: MySQL 8.0 (InnoDB Engine), MySQL Workbench 8.0.
 
@@ -45,7 +45,7 @@ The schema (lego_analytics) models catalog items, taxonomy, and physical set inv
 
     Workflow & Best Practices: Modular script architecture (01–04), Git version control, reproducible DDL/DML pipelines, and structured SQL documentation.
 
-💻 Key SQL Concepts Implemented
+## 💻 Key SQL Concepts Implemented
 
     Relational Integrity: Foreign keys with ON DELETE CASCADE and ON DELETE SET NULL, CHECK constraints, DEFAULT values.
 
@@ -61,7 +61,7 @@ The schema (lego_analytics) models catalog items, taxonomy, and physical set inv
 
         Conditional cohort binning using multi-branch CASE WHEN constructs.
 
-📊 Key Business Insights & Analytical Findings
+## 📊 Key Business Insights & Analytical Findings
 1. Historical Crisis & The 2005 Turnaround (YoY Analysis)
 
 Using LAG() to analyze set release dynamics from 1980 onward revealed:
@@ -78,7 +78,7 @@ Categorization of sets into volume brackets revealed a steep Pareto distribution
 
     Flagship / UCS Tier (2,000+ parts): Represent fewer than 30 sets historically in early catalog snapshots, underscoring their exclusivity and targeted collector positioning.
 
-📂 Repository Structure
+## 📂 Repository Structure
 
     01_schema_setup.sql – DDL scripts: table definitions & constraints
 
@@ -90,7 +90,7 @@ Categorization of sets into volume brackets revealed a steep Pareto distribution
 
     README.md – Project documentation
 
-🚀 How to Replicate
+## 🚀 How to Replicate
 
     Clone this repository to your local machine.
 
